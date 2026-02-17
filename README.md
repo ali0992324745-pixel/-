@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Clinic</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { line-height: 1.6; color: #333; }
+    header { background: #0d6efd; color: #fff; padding: 20px; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: #fff; margin-left: 15px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 60px 20px; text-align: center; background: #f5f9ff; }
+    .hero h1 { margin-bottom: 15px; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; }
+    .contact form { display: grid; gap: 15px; }
+    input, textarea, button { padding: 10px; font-size: 16px; }
+    button { background: #0d6efd; color: #fff; border: none; cursor: pointer; border-radius: 5px; }
+    footer { text-align: center; padding: 20px; background: #f1f1f1; margin-top: 40px; }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: #fff; padding: 15px; border-radius: 50%; text-decoration: none; font-size: 20px; }
+  </style>
+</head>
+<body><header>
+  <nav>
+    <h2>Dental Clinic</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header><div id="home" class="hero">
+  <h1>Welcome to Our Dental Clinic</h1>
+  <p>Professional dental care for you and your family</p>
+</div><section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Teeth Cleaning</div>
+    <div class="card">Dental Filling</div>
+    <div class="card">Tooth Extraction</div>
+    <div class="card">Dental Checkup</div>
+  </div>
+</section><section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section><a class="whatsapp" href="https://wa.me/249000000000" target="_blank">💬</a>
+
+<footer>
+  <p>© 2026 Dental Clinic. All rights reserved.</p>
+</footer></body>
+</html>
